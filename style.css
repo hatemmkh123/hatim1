@@ -1,0 +1,400 @@
+/* Start Global Instructions */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    width: 100%;
+    overflow: auto;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.overlay {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+/* End Global Instructions */
+
+
+/* Start Header Styling */
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url('img/header/2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+.header nav {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    color: aliceblue;
+    overflow: hidden;
+}
+.header nav .logo {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+.header nav .logo h2 a {
+    display: block;
+    line-height: 40px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header nav .menu {
+    height: 100%;
+    float: right;
+    margin-right: 30px;
+}
+.header nav .menu ul {
+    list-style: none;
+    height: 80px;
+}
+.header nav .menu ul li {
+    display: inline-block;
+    line-height: 40px;
+    padding: 20px;
+}
+.header nav .menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.active {
+    border: 1px solid aliceblue;
+    padding: 10px;
+}
+.active:hover {
+    color: darkgray;
+    border: 1px solid darkgray;
+}
+.header nav .menu ul li a:hover {
+    color: darkgray;
+}
+
+.header h1 {
+    display: block;
+    position: absolute;
+    top: 350px;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 30px;
+}
+.header h3 {
+    display: block;
+    position: absolute;
+    top: 450px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 60px;
+    color: darkgray;
+}
+
+/* End Header Styling */
+
+
+/* Start Section1 Styling */
+.section1 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section1 .address {
+    width: 100%;
+    height: 20vh;
+    margin-top: 5vh;
+}
+.section1 .address h1 {
+    font-family: 'Laila', serif;
+    float: left;
+    display: block;
+}
+.address p {
+    float: left;
+    font-size: 19px;
+    font-family: 'Laila', serif;
+}
+.address p span {
+    color: goldenrod;
+}
+
+.section1 .content {
+    width: 100%;
+    height: 60vh;
+    margin-top: 3vh;
+    font-family: 'Laila', serif;
+}
+.section1 .content .text {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+.section1 .content p {
+    text-align: left;
+    padding-top: 5vh;
+    font-size: 17px;
+}
+.section1 .content .right-photo {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.05);
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section1 .content .right-photo h1 {
+    padding-top: 18vh;
+}
+
+.section1 .button {
+    width: 100%;
+    height: 10vh;
+    margin-top: 2vh;
+}
+.section1 .button a {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    padding: 10px 0;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Laila', serif;
+    font-weight: 600;
+}
+/* End Section1 Styling */
+
+
+
+/* Start Section2 Styling */
+.section2 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+/* End Section2 Styling */
+
+
+
+/* Start Section2 Styling */
+.section2 {
+    width: 100%;
+    height: 20vh;
+    background: none;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.section2 .container2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url('img/section2/4.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.93)
+}
+/* End Section2 Styling */
+
+
+/* Start Section3 Styling */
+.section3 {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.section3 .left-one {
+    width: 55%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.section3 .left-one p {
+    text-align: left;
+    font-family: 'Laila', serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20vh;
+}
+.section3 .right-one {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    margin-left: 5%;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    padding-top: 5%
+}
+/* End Section3 Styling */
+
+
+
+/* Start Section4 Styling */
+.section4 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+    background: url('img/section4/portrait-2194457_1920.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+.section4 .container4 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.75)
+}
+
+.section4 .left-one {
+    width: 55%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    text-align: left;
+}
+.section4 .left-one .nomination {
+    font-size: 50px;
+    text-align: left;
+    float: left;
+    margin-top: 110px;
+    font-family: 'Laila', serif;
+
+}
+.section4 .left-one .same-prop {
+    float: left;
+    margin-top: 35px;
+}
+.section4 .left-one .same-prop h4 {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Laila', serif;
+    color: darkgray;
+
+}
+.section4 span {
+    color: aliceblue;
+}
+.section4 .left-one .same-prop p {
+    text-align: left;
+    font-size: 17px;
+    padding-top: 10px
+}
+.section4 .right-one {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    margin-left: 5%;
+    background-size: 100% 100%;
+    padding-top: 9%;
+}
+/* End Section4 Styling */
+
+
+/* Start Section5 Styling */
+.section5 {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    font-family: 'Laila', serif;
+}
+.section5 .overlay5 {
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.section5 .overlay5 h6 {
+    font-size: 40px;
+    padding-top: 110px;
+}
+.section5 .overlay5 p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.section5 .overlay5 a {
+    width: 115px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Laila', serif;
+    text-decoration: none;
+    color: aliceblue;
+    background: black;
+}
+/* End Section5 Styling */
+
+
+
+/* Start Section6 Styling */
+.section6 {
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+    background: rgba(0,0,0,0.15);
+}
+.section6 .overlay6 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-family: 'Laila', serif;
+}
+.section6 .overlay6 a:hover {
+    color: darkslategray;
+}
+.section6 .overlay6 li {
+    list-style: none;
+    display: inline-block;
+    padding: 52px 30px;
+    
+}
+/* End Section6 Styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
